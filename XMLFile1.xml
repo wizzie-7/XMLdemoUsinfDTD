@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Student [
+	<!ELEMENT student (SID,name,Rollno,Standrd)>
+	<!ELEMENT SID (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT Rollno (#PCDATA)>
+	<!ELEMENT Standard (#PCDATA)>
+	<!ATTLIST SID id CDATA #REQUIRED>
+]>
+<Student>
+	<SID id= "1001">1001</SID>
+	<name>XYZ</name>
+	<Rollno>17</Rollno>
+	<Standard>VII</Standard>
+</Student>
